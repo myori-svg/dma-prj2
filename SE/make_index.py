@@ -7,7 +7,7 @@ from whoosh.index import create_in
 from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, NUMERIC
 
-schema = Schema(docID=NUMERIC(stored=True), contents=TEXT(analyzer=StemmingAnalyzer()))
+schema = Schema(docID=NUMERIC(stored=True), contents=TEXT(analyzer=StemmingAnalyzer(), vector=True))
 index_dir = "index"
 
 if not os.path.exists(index_dir):

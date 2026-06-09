@@ -13,7 +13,16 @@
       "Bash(python3 -c ' *)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)",
+      "Bash(ln -s /Users/myori/Desktop/p2_team22/SE/doc /Users/myori/Public/workspace/DMA_project2_team22/SE/doc)",
+      "Bash(python3 evaluate.py)",
+      "Bash(python3 sweep.py)",
+      "Bash(python3 sweep_prf.py)",
+      "Bash(python3 make_index.py)",
+      "Bash(python3 sweep_query.py)",
+      "Bash(python3 sweep_idf_boost.py)"
     ]
   }
 }
