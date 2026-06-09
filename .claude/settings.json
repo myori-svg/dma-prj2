@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sklearn; import mlxtend; import whoosh; import pandas; print\\('sklearn:', sklearn.__version__\\); print\\('mlxtend:', mlxtend.__version__\\); print\\('whoosh:', whoosh.__version__\\); print\\('pandas:', pandas.__version__\\)\")",
+      "Bash(find /Users/myori -maxdepth 6 \\\\\\( -name \"DMA_project_UBR.csv\" -o \\\\\\( -name \"text\" -type d \\\\\\) \\\\\\) 2>/dev/null | head -20)",
+      "Read(//Users/myori/**)",
+      "Bash(python3 /Users/myori/Public/workspace/DMA_project2_team22/CL/clasification.py)",
+      "Bash(cp /Users/myori/Desktop/p2_team22/CL/DMA_project2_team22_nb.pkl /Users/myori/Public/workspace/DMA_project2_team22/CL/DMA_project2_team22_nb.pkl)",
+      "Bash(cp /Users/myori/Desktop/p2_team22/CL/DMA_project2_team22_svm.pkl /Users/myori/Public/workspace/DMA_project2_team22/CL/DMA_project2_team22_svm.pkl)",
+      "Bash(python3 /Users/myori/Public/workspace/DMA_project2_team22/AA/part1.py)",
+      "Bash(cp /Users/myori/Desktop/p2_team22/AA/DMA_project2_team22_part1_horizontal.pkl /Users/myori/Public/workspace/DMA_project2_team22/AA/)",
+      "Bash(cp /Users/myori/Desktop/p2_team22/AA/DMA_project2_team22_part1_association.pkl /Users/myori/Public/workspace/DMA_project2_team22/AA/)",
+      "Bash(python3 -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
