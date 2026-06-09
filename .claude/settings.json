@@ -22,7 +22,9 @@
       "Bash(python3 sweep_prf.py)",
       "Bash(python3 make_index.py)",
       "Bash(python3 sweep_query.py)",
-      "Bash(python3 sweep_idf_boost.py)"
+      "Bash(python3 sweep_idf_boost.py)",
+      "Bash(git cherry-pick *)",
+      "Bash(git push *)"
     ]
   }
 }
